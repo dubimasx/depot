@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db>
+<categories>
+    <category id = "1">
+        <name>AM</name>
+    </category>
+    <category id = "2">
+         <name>A</name>
+    </category>
+    <category id = "3">
+        <name>B</name>
+    </category>
+</categories>
+<licences>
+    <licence>
+        <id>1</id>
+        <expiration>2022-11-11</expiration>
+        <categories>
+            <category id = "1">
+                <name>AM</name>
+            </category>
+            <category id = "2">
+                <name>A</name>
+            </category>
+        </categories>
+    </licence>
+    <licence>
+        <id>2</id>
+        <expiration>2023-12-12</expiration>
+        <categories>
+            <category id = "2">
+                <name>A</name>
+            </category>
+            <category id = "3">
+                <name>B</name>
+            </category>
+        </categories>
+    </licence>
+</licences>
+<drivers>
+    <driver id = "1">
+        <name>Oleg</name>
+        <age>22</age>
+        <licence>2022-11-11</licence>
+    </driver>
+    <driver id = "2">
+        <name>Max</name>
+        <age>30</age>
+        <licence>2023-12-12</licence>
+    </driver>
+</drivers>
+<buses>
+    <bus id = "1">
+        <name>159</name>
+        <type>in-city</type>
+        <model>MAZ-103</model>
+        <driver>Oleg</driver>
+        <route>DS Zahad-3 - DS Zahad-3</route>
+        <depot>DS Zahad-3</depot>
+    </bus>
+    <bus id = "2">
+        <name>60</name>
+        <type>in-city</type>
+        <model>MAZ-104</model>
+        <driver>Max</driver>
+        <route>DS Zahad-3 - HC Zdanovicy</route>
+        <depot>DS Zahad-3</depot>
+    </bus>
+</buses>
+<models>
+    <model id = "1">
+        <name>MAZ-103</name>
+    </model>
+    <model id = "2">
+        <name>MAZ-104</name>
+    </model>
+</models>
+</db>
